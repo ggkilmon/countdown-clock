@@ -1,24 +1,43 @@
-.container {
-  background-image: url("/assets/Brick-Texture.jpg");
-}
-
-.timer, h4 {
+.countdown-container {
   text-align: center;
   font-family: "Montserrat", Arial, sans-serif;
   letter-spacing: -1px;
   color: rgb(42, 42, 42);
-  font-size: large;
+  font-size: xx-large;
   font-weight: bold;
   line-height: 25px;
 }
 
-.timer span {
-  font-size: 2em;
-  margin: 0 3px 0 15px;
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.image {
-  text-align: center;
-  margin-top: 15px;
-  width: 100%;
+.timer-component {
+  margin: 0 3px 25px 15px;
+}
+
+.timer span {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .countdown-container {
+    font-size: x-large;
+  }
+
+  .timer span {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .countdown-container {
+    font-size: large;
+  }
+
+  .timer span {
+    font-size: 1.5em;
+  }
 }

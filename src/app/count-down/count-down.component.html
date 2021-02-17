@@ -1,7 +1,17 @@
-<div class="timer">
-  <h4>Count down to St. Mary's Web-a-Thon</h4>
-  <span id="days"> {{daysToDday}} </span>Day(s)
-  <span id="hours"> {{hoursToDday}} </span>Hrs
-  <span id="minutes"> {{minutesToDday}} </span>Min
-  <span id="seconds"> {{ secondsToDday }} </span>s
+<div class="countdown-container">
+  <h4 class="countdown-title">Countdown to St. Mary's Web-a-Thon</h4>
+  <div class="timer">
+    <div class="timer-component">
+      <span id="days"> {{daysToDday}} </span>Day(s)
+    </div>
+    <div class="timer-component">
+      <span id="hours"> {{hoursToDday}} </span>Hrs
+    </div>
+    <div class="timer-component">
+      <span id="minutes"> {{minutesToDday}} </span>Min
+    </div>
+    <div class="timer-component">
+      <span id="seconds"> {{ secondsToDday }} </span>s
+    </div>
+  </div>
 </div>
