@@ -1,0 +1,24 @@
+.container {
+  background-image: url("/assets/Brick-Texture.jpg");
+}
+
+.timer, h4 {
+  text-align: center;
+  font-family: "Montserrat", Arial, sans-serif;
+  letter-spacing: -1px;
+  color: rgb(42, 42, 42);
+  font-size: large;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.timer span {
+  font-size: 2em;
+  margin: 0 3px 0 15px;
+}
+
+.image {
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
